@@ -1,1 +1,6 @@
 vst/build/
+dist/
+# local-only build inputs (third-party artwork that is not redistributed from this repo)
+vst/images/air/
+vst/layout.local.conf
+vst/vst.local.json

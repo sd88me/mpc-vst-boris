@@ -1,0 +1,47 @@
+/* Boris Granular skin: purple on black, big legible Titillium text, glowing value arcs. */
+:root {
+  --title-size: 26px;
+  --label-size: 17px;
+  --seg-size: 17px;
+  --button-size: 17px;
+  --radius: 8px;
+  --sheen: 0.06;
+}
+text { font-weight: 700; }
+.td3 .frame-border { fill: var(--box); stroke: var(--line); stroke-width: 2; rx: 10; }
+.td3 .frame-title { fill: var(--accent-hi); font-size: 26px; letter-spacing: 0.1em; }
+.frame-rule { stroke: var(--accent); stroke-width: 2; opacity: 0.8; }
+.text { fill: var(--ink); font-size: 16px; letter-spacing: 0.12em; }
+
+.knob-track { stroke: #3a2f66; stroke-width: 7px !important; }
+.knob-arc { stroke: var(--accent); stroke-width: 7px !important; filter: drop-shadow(0 0 4px var(--accent)); }
+.knob-face { fill: #120c24; stroke: #5a4aa0; stroke-width: 2; }
+.knob-sheen { opacity: 0.5; }
+.knob-pointer { stroke: var(--ink); stroke-width: 4px !important; }
+
+.pill-track { fill: #120c24; stroke: var(--accent); stroke-width: 2; }
+.pill-thumb { fill: #5a4aa0; }
+.on .pill-thumb { fill: var(--accent); filter: drop-shadow(0 0 5px var(--accent)); }
+
+.seg-bg { fill: var(--fill); }
+.seg-tx { fill: var(--ink); font-weight: 700; }
+.box-label { fill: var(--ink); font-size: 17px; }
+
+/* --- realistic pass: textured plate, translucent panels, gunmetal knobs, lit arcs --- */
+:root { --sheen: 0.22; }
+.td3 .frame-border { fill: rgba(30, 18, 60, 0.42); stroke: #6a55c8; stroke-width: 1.5; filter: drop-shadow(0 3px 6px rgba(0,0,0,.7)); }
+.frame-rule { stroke: #8f6bff; opacity: .55; }
+.td3 .frame-title { fill: #cdb8ff; filter: drop-shadow(0 0 6px rgba(160,110,255,.8)); }
+#metal-radial stop:nth-child(1) { stop-color: #cfc7e6; }
+#metal-radial stop:nth-child(2) { stop-color: #5d5775; }
+#metal-radial stop:nth-child(3) { stop-color: #15101f; }
+.knob-face { fill: url(#metal-radial); stroke: #0a0614; stroke-width: 2.5;
+             filter: drop-shadow(0 5px 5px rgba(0,0,0,.85)); }
+.knob-sheen { opacity: .9; }
+.knob-track { stroke: #1a1230; stroke-width: 3px !important; }
+.knob-arc { stroke: #b480ff; stroke-width: 3px !important;
+            filter: drop-shadow(0 0 1.5px #b480ff); }
+.knob-pointer { stroke: #f4eeff; stroke-width: 3.5px !important; filter: drop-shadow(0 0 2px #000); }
+.pill-track { fill: #0b0716; stroke: #6a55c8; }
+.on .pill-thumb { fill: #b480ff; filter: drop-shadow(0 0 8px #b480ff); }
+.box { fill: #0b0716; stroke: #6a55c8; }

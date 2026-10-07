@@ -24,5 +24,6 @@
       "-lm"
     ]
   },
-  "presets": "presets.json"
+  "presets": "presets.json",
+  "art": "html"
 }

@@ -5,7 +5,7 @@ to a 10 second buffer, and up to 24 overlapping grains replay it, each with its 
 direction, volume and pan. Use it for smeared pads, frozen textures, stutters, shimmer, tape-style echoes and
 tempo-synced chops.
 
-![skin preview](docs/skin-preview.png)
+![Boris Granular on a Force](docs/screenshot-force.png)
 
 ## Features
 - Granular engine with up to **24 voices** over a **10 s** circular buffer, 44.1 kHz stereo.

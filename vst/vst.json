@@ -4,6 +4,7 @@
   "uid": "BoGr",
   "version": 1000,
   "so": "boris_granular.so",
+  "targets": ["armv7", "aarch64"],
   "effect": true,
   "params": "params.json",
   "layout": "layout.conf",
